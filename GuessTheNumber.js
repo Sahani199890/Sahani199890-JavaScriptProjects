@@ -18,6 +18,7 @@ again.addEventListener("click", () => {
   randomNumber = Math.trunc(Math.random() * 20) + 1;
   body.style.backgroundColor = "#303030";
   number.style.width = "15rem";
+  score.textContent = 20;
   count = 20;
 });
 
